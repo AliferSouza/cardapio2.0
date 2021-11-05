@@ -1,0 +1,52 @@
+{
+        
+        
+        "foods": [
+                {
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Cheese Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
+                        "Preço": "19.99",
+                        "Categoria": "Chicken"
+                },
+                {
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Cheese Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
+                        "Preço": "19.99",
+                        "Categoria": "Chicken"
+                },
+                {
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Cheese Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
+                        "Preço": "1.00",
+                        "Categoria": "Chicken"
+                },
+                {
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Cheese Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
+                        "Preço": "1.00",
+                        "Categoria": "Chicken"
+                },
+                {
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Cheese Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
+                        "Preço": "1.00",
+                        "Categoria": "Chicken"
+                }, 
+                {
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Cheese Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
+                        "Preço": "1.00",
+                        "Categoria": "Chicken"
+                }
+        ]
+        
+       
+       
+       
+}
