@@ -1,8 +1,9 @@
 function cardFoods(dados) {
+   
   let cardFoods = ``;
-  dados.forEach((dado) => {
+  dados.forEach((dado) => {    
     cardFoods += `
-        <div class="food">
+        <div class="food ${dado.Id}">
     <div class = "food-img">
         <img src = "${dado.Imagem}" alt = "food image">
         <span>
@@ -12,12 +13,12 @@ function cardFoods(dados) {
     </div>
 
     <div class = "food-content">
-        <h2>${dado.Titulo}</h2>
-        <p>${dado.Descrição}</p>
+        <h2 class="Titulo">${dado.Titulo}</h2>
+        <p class="Descrição">${dado.Descrição}</p>
         <div class = "food-info">
             <div>
                 <i class = "fas fa-fire"></i>
-                <p>200 - 280 Kcal</p>
+                <p>${dado.Infocaloria}</p>
             </div>
             <span>${dado.Categoria}</span>
         </div>
@@ -38,6 +39,7 @@ function cardFoods(dados) {
 </div>
 `;
   });
+
 
   return cardFoods;
 }

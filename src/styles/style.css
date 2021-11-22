@@ -6,31 +6,33 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-body{
+body{    
     font-weight: 300;
     font-size: 1.05rem;
-    line-height: 1.5;
+    line-height: 1.5;   
 }
+
 img{
     width: 100%;
     display: block;
 }
-.center{
+
+.center{   
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* food wrapper */
-.food-wrapper{
-    min-height: 100vh;
+.food-wrapper{   
     flex-direction: column;
     background: #f9f9f9;
-    padding: 3rem;
+    padding: 5rem;
 }
+
 .food-wrapper h1{
     text-transform: uppercase;
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
     letter-spacing: 2px;
     position: relative;
 }
@@ -51,8 +53,9 @@ img{
 
 .foods{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 2rem;
+    
 }
 .food{
     background: #fff;

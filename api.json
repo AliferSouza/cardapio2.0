@@ -2,48 +2,44 @@
         
         
         "foods": [
-                {
+                {       "Id": "1",
                         "Imagem": "./public/images/burger.jpg",
-                        "Titulo": "Cheese Burger",
-                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
-                        "Preço": "19.99",
-                        "Categoria": "Chicken"
+                        "Titulo": "Burger",
+                        "Descrição": "Burger muinto gostoso",
+                        "Preço": "Preço R$:1.50",
+                        "Categoria": "Chicken ",
+                        "Infocaloria": "200 - 280 Kcal"
                 },
                 {
+                        "Id": "2",
                         "Imagem": "./public/images/burger.jpg",
-                        "Titulo": "Cheese Burger",
-                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
-                        "Preço": "19.99",
-                        "Categoria": "Chicken"
+                        "Titulo": "Banana",
+                        "Descrição": "A banana é uma das frutas mais conhecida do mundo.",
+                        "Preço": "Preço R$:2.00",
+                        "Categoria": "Chicken", 
+                        "Infocaloria": "100 - 300 Kcal"
+
+                },
+                {        "Id": "3",
+                        "Imagem": "./public/images/burger.jpg",
+                        "Titulo": "Suco",
+                        "Descrição": "Suco.",
+                        "Preço": "Preço R$: 3.00",
+                        "Categoria": "Chicken", 
+                        "Infocaloria": "100 - 300 Kcal"
+
                 },
                 {
+                        "Id": "4",
                         "Imagem": "./public/images/burger.jpg",
-                        "Titulo": "Cheese Burger",
-                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
-                        "Preço": "1.00",
-                        "Categoria": "Chicken"
-                },
-                {
-                        "Imagem": "./public/images/burger.jpg",
-                        "Titulo": "Cheese Burger",
-                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
-                        "Preço": "1.00",
-                        "Categoria": "Chicken"
-                },
-                {
-                        "Imagem": "./public/images/burger.jpg",
-                        "Titulo": "Cheese Burger",
-                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
-                        "Preço": "1.00",
-                        "Categoria": "Chicken"
-                }, 
-                {
-                        "Imagem": "./public/images/burger.jpg",
-                        "Titulo": "Cheese Burger",
-                        "Descrição": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde aliquam cupiditate.",
-                        "Preço": "1.00",
-                        "Categoria": "Chicken"
+                        "Titulo": "Cheese-Burger",
+                        "Descrição": "Lorem ipsum dolor sit amet.",
+                        "Preço": "Preço R$: 1.50",
+                        "Categoria": "Chicken", 
+                        "Infocaloria": "100 - 300 Kcal"
+
                 }
+               
         ]
         
        
