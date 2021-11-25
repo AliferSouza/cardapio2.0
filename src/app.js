@@ -1,15 +1,20 @@
-import API from './api/api.js'
+
 import cardFoods from './componets/cardFoods.js'
 
-let dados = await API();
 
 const cardfoods = document.querySelector(".foods");
 
+let url = '../../api.json';
 
 
 const App = () => {    
-
-    cardfoods.innerHTML = cardFoods(dados.foods)
+    fetch(url).then(response => response.json())
+    .then(data => {
+        cardfoods.innerHTML = cardFoods(data.foods)
+          
+    }).catch(e => { console.log("ERRO" + e) })
+    
+    
    
 }
 
