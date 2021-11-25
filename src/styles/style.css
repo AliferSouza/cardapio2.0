@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{    
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.5;   
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.center{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* food wrapper */
+.food-wrapper{   
+    flex-direction: column;
+    background: #f9f9f9;
+    padding: 5rem;
+}
+
+.food-wrapper h1{
+    text-transform: uppercase;
+    margin: 2rem 0 2rem 0;
+    letter-spacing: 2px;
+    position: relative;
+}
+.food-wrapper h1::after{
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    content: "";
+    height: 4px;
+    width: 120px;
+    background: #fa7921;
+}
+
+.foods{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 2rem;
+    
+}
+.food{
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(212, 212, 212, 0.64);
+    margin: 1rem 0;
+    border-radius: 2px;
+ 
+}
+.food-img img{
+    border-radius: 4px 4px 0 0;   
+}
+.food-img{
+    position: relative;
+}
+.food-img span{
+    position: absolute;
+    font-size: 0.1rem;
+    color: #fff;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+.food-rate{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: #fe9920;
+    padding: 0.1rem 0.2rem;
+    font-size: 80%;
+}
+.food-content{
+    font-size: 80%;
+    padding: 0.6rem;
+}
+.food-content p{
+    padding: 0.6rem 0;
+}
+.food-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-info div{
+    display: flex;
+    align-items: center;
+    color: #fa7921;
+}
+.food-info div p{
+    padding-left: 0.4rem;
+    font-size: 60%;
+    font-weight: 500;
+}
+.food-info span{
+    background: #fa7921;
+    color: #fff;
+    border-radius: 6px;   
+    padding: 0.1rem 0.4rem;
+    font-weight: 600;
+}
+.food-price-calc{
+    padding: 1.2rem 0 0.4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.food-price-calc h2{
+    color: #fa7921;
+    font-size: 90%;
+}
+.food-quantity{
+    display: flex;
+    align-items: center;
+}
+.food-quantity div{
+    width: 20px;
+    height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.5rem;
+}
+.order-val{
+    font-weight: 600;
+    background: #f9f9f9;
+}
+.order-dec,
+.order-inc{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.45);
+}
+.order-dec .fas,
+.order-inc .fas{
+    color: #fff;
+}
+.order-dec:hover,
+.order-inc:hover{
+    background: #fa7921;
+}
+
+.scroll{
+    overflow-y: auto;
+  }
+    
+  
